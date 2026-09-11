@@ -2,13 +2,13 @@
 let numberElement = document.getElementById('number');
     numberElement.style.color = 'red';
 
-function increase() {
+function increment() {
     number++;
     numberElement.innerHTML = number;
     numberElement.style.color = 'blue';
 }
 
-function decrease() {
+function decrement() {
     if (number > 0) {
         number--;
         numberElement.innerHTML = number;
