@@ -1,5 +1,5 @@
- let number = 0;
-let numberElement = document.getElementById('number');
+ var number = 0;
+var numberElement = document.getElementById('number');
     numberElement.style.color = 'red';
 
 function increment() {
